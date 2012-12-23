@@ -1,0 +1,141 @@
+@font-face
+{
+	font-family: OpenSansLight;
+	src: url('fonts/OpenSans-Light.ttf');
+}
+
+@font-face
+{
+	font-family: OpenSansLightb;
+	src: url('fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face
+{
+	font-family: OpenSansLightl;
+	src: url('fonts/OpenSans-Light.ttf');
+}
+
+body
+{
+	font-family:OpenSansLight;
+	background:#CCC;
+}
+
+#main
+{
+	width:950px;
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#navigation
+{
+	font-family:OpenSansLight;
+	background-color:#689ee7;
+}
+
+#header
+{
+	font-family:OpenSansLightl;
+	font-size:48pt;
+	min-height:100px;
+	color:#656565;
+	
+}
+
+#cWrap
+{
+	background-color:#ecdada;
+	min-height:500px;
+	color:#656565;
+	overflow: hidden
+}
+
+#footer
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	
+	background-color:#689ee7;
+	color:#FFF;
+}
+
+#title
+{
+	font-family:OpenSansLightb;
+	padding:10px;
+}
+
+#content
+{
+	padding:10px;
+	padding-top:5px;
+	float:left;
+	width:620px;
+	overflow:hidden;
+	clear:both;
+}
+
+#navigation li
+{
+	list-style-type: none;
+	list-style: none;
+}
+
+#navigation li a
+{
+	display: block;
+	padding-right:30px;
+	text-align: center;
+
+	float: left;
+	color: white;
+	
+	text-decoration: none;
+}
+
+#navigation ul
+{
+	list-style-type: none;
+	padding-top:3px;
+	height: 27px;
+	
+	margin: auto;
+	margin-left:0px;
+	left:0px;
+	padding-left:10px;	
+}
+
+#navigation
+{
+	padding-left:0px;	
+	
+	
+}
+
+
+#sideBar 
+{
+	float:right;
+	width:300px;
+}
+
+#sideBarLink
+{
+	color:#FFF;
+	padding-top:4px;
+	padding-bottom:5px;
+	text-align:left;
+	padding-left:10px;
+	
+	background-color:#689ee7;		
+}
+
+#sideBarContent
+{
+
+	padding-left:15px;
+	padding-right:15px;
+}
